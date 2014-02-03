@@ -10,7 +10,7 @@ var app = express();
 
 app.use(express.logger());
 app.use(express.favicon(__dirname + '/favicon.ico'))
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/'));
 app.use(express.bodyParser());
 
 var db = [];
@@ -27,8 +27,7 @@ app.post('/procesaformulario', function (req, res) {
 
 // listado de los datos
 app.get('/listado', function(req, res) {
-
-    body(background-color: black;)    
+    
 	console.log('quieren el listado');
 	res.writeHead(200, {'Content-type': 'text/html; charset=utf8'});
 	res.write('<p>Listado de los datos</p>');
@@ -37,6 +36,11 @@ app.get('/listado', function(req, res) {
 		res.write('<p>'+ JSON.stringify(db[i]) + '</p>');		
 	
 	}	
+    
+    //var hoja = document.createElement('style');
+    //hoja.innerHTML = "div {background-color:blue;}";
+    //document.body.appendChild(hoja);	
+    //document.styleSheets;
 
 	res.end();
 });
@@ -53,6 +57,16 @@ app.post('/modificaformulario', function (req, res) {
        
 });
 
+// Eliminar formulario
+
+app.post('/eliminaformulario', function (req, res) {
+ console.log("quieren eliminar un formulario");
+ console.log(util.inspect(req.body));
+ notas.splice(req.body.numnota - 1,1);
+        res.send("Nota eliminada");
+       
+       
+});
 
 app.listen(3000, function () {
 	console.log("Servidor escuchando en el puerto 3000");
