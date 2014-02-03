@@ -1,0 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(http://fonts.googleapis.com/css?family=Devonshire);
+@import url(http://fonts.googleapis.com/css?family=Sirin+Stencil);
+
+body {
+  background-color: tan; /*color fondo pagina*/
+  border-style: dotted; /*puntos del borde*/
+  border-width: 2px; /*ancho de los puntos*/  
+  margin: 20%; /*margen exterior del cuadro*/
+  padding: 5px; /*margen interior del cuadro*/
+}
+
+h1 {
+
+  font-family: "Sirin Stencil";
+  
+/*Al omitir color, la letra saldra en negra
+Tambien viene predefinido que h3 sea mas pequeño que h2 y h2 mas pequeño que h1*/
+}
+
+p {i
+  font-family: "roboto slab"; // sans-serif; /*letra*/
+  font-style: italic;
+  font-size: 1.5em; 
+}
