@@ -27,7 +27,20 @@ h2{
     text-align: center;
 }
 
+#formu2 {
+
+    background-position: center;
+    text-align: center;
+}
+
+
 #f {
+
+    background-position: center;
+    text-align: center;
+}
+
+#f2 {
 
     background-position: center;
     text-align: center;
@@ -37,6 +50,25 @@ h2{
 
     background-position: center;
     text-align: center;
+}
+
+#for2 {
+
+    background-position: center;
+    text-align: center;
+}
+
+.b {
+
+background-position: center;
+
+}
+
+#a{
+
+    background-position: center;
+    text-align: center;
+
 }
 
 .boton {
@@ -75,4 +107,11 @@ h2{
 }.boton:active {
 	position:relative;
 	top:1px;
+}
+
+#tyt_wdgt_1391533111353{
+
+background-position: center;
+text-align: center;
+
 }

@@ -1,0 +1,23 @@
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+
+body{
+
+    background-image: url("./img/intro-bg.jpg");
+    background-attachment: fixed;   
+    background-position: center;
+
+}
+
+h1{
+
+    color: yellow;
+    text-align: center;
+    font-family: "Indie Flower";
+}
+
+h2{
+
+    color: white;
+    text-align: center;
+    font-family: "Indie Flower";
+}

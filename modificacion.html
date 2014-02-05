@@ -3,21 +3,23 @@
 <head>
    <meta charset ="utf-8">
    <link rel="stylesheet" href="fondo.css">
-   <tittle>Modifica formulario</tittle>
+   <title>Modifica formulario</title>
    
 </head>
 <body>
-      <h1> Elija la nota que quiere cambiar:</h1>
-      <form name = 'numeronota' action ="/modificaformulario"  method='POST' id="f">
-         <h2>Numero de la nota:</h1><input type="text" name= "numnota"><br>
-         <h1> Escriba aqui su nueva nota:</h1>
-         <h2>Autor<input type="text" name="Autor"> Fecha<input type="date" name="Fecha" ></h2>
-         <h2>Contenido</h2><input type="text" name="Contenido"><br>
-         <br></br>
-         <input type="submit" value="Modificar" class="boton">
-      </form>
-     
+    <h1> Elija la nota que quiere cambiar:</h1>
+    <form name = 'numeronota' action ="/modificaformulario"  method='POST' id="f">
+        <h2>Numero de la nota:</h2><input type="text" name= "numnota"><br>
+        <h1> Escriba aqui su nueva nota:</h1>
+        <h2>Autor<input type="text" name="Autor"> Fecha<input type="date" name="Fecha" ></h2>
+        <h2>Contenido</h2>
+        <textarea cols="40" rows="6" name="Contenido"></textarea><br>
+        <br>
+        <input type="submit" value="MODIFICAR" class="boton">
+    </form>
+    <br>
+    <form action="index.html" id="f2">
+        <input type="submit" class="boton" value="INICIO">
+    </form>     
 </body>
-
-
 </html>
