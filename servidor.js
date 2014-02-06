@@ -33,5 +33,5 @@ ruta3.modificarnotas(app, db);
 ruta4.eliminarnotas(app, db);
 
 app.listen(port, function () {
-    console.log("Servidor escuchando en el puerto 3000");
+    console.log("Servidor escuchando");
 });
