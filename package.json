@@ -1,12 +1,22 @@
 {
-  "name": "Ejemplo",
-  "author": "daniel guerrero, alberto herrera, alejandro medina",
+  "name": "ADABlocNotas",
   "version": "0.0.1",
-  "dependencies": {
-    "express": "3.4.7"
-    "jade": "*"
-  }
+  "description": "Bloc de gestion de notas",
+  "main": "servidor.js",
   "scripts": {
-    "start": "node servidor.js"
-  }
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DaniGuerrero05/TrabajoIISS.git"
+  },
+  "keywords": [
+    "adabloc"
+  ],
+  "author": "daniel guerrero",
+  "license": "private",
+  "bugs": {
+    "url": "https://github.com/DaniGuerrero05/TrabajoIISS/issues"
+  },
+  "homepage": "https://github.com/DaniGuerrero05/TrabajoIISS"
 }
