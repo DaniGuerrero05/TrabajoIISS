@@ -4,7 +4,7 @@
   "description": "Bloc de gestion de notas",
   "main": "servidor.js",
   "scripts": {
-    "test": "start"
+    "start": "node servidor.js"
   },
   "repository": {
     "type": "git",
