@@ -2,6 +2,7 @@
 /*var require = someFunction();*/
 var express = require('express');
 /*var console = require('console');*/
+var port = process.env.PORT || 3000;
 var util = require('util');
 var ruta1 = require('./routes/Crearnota.js');
 var ruta2 = require('./routes/Listarnotas.js');
@@ -31,6 +32,6 @@ ruta3.modificarnotas(app, db);
 // Eliminar formulario
 ruta4.eliminarnotas(app, db);
 
-app.listen(3000, function () {
+app.listen(port, function () {
     console.log("Servidor escuchando en el puerto 3000");
 });
